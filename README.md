@@ -181,7 +181,7 @@ All product names, logos, and brands are property of their respective owners.
 ## 🙋‍♂️ Contribute / Connect
 
 Got ideas, tips, or hardware hacks?  
-Feel free to open issues, fork the repo, or just say hi on [LinkedIn](https://www.linkedin.com/in/yoganathprabhakar/).  
+Feel free to open issues, fork the repo, or just say hi on [LinkedIn](https://www.linkedin.com/in/yoganathp/).  
 Let’s learn and build cool things together 🚀
 
 For build instructions, toolchain setup, and contribution guidelines, see the [CONTRIBUTING.md](./CONTRIBUTING.md) file.
