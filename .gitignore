@@ -39,3 +39,6 @@ rootfs/var/log/
 
 # Other local configs or secrets
 .env
+
+# Ignore all extracted source folders under any GPL drop
+gpl_sources/**/extracted/
