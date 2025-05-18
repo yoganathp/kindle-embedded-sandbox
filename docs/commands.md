@@ -69,6 +69,17 @@ mkdir -p myfolder
 tar -xzf archive.tar.gz -C myfolder
 ```
 
+### Extract all .tar.gz files in a directory to separate folders
+Useful for extracting multiple archives (e.g., in gpl_sources/Kindle_src_5.1.2_1679530004/gplrelease):
+
+```bash
+for file in *.tar.gz; do
+  dirname="${file%.tar.gz}"
+  mkdir -p "../sources/$dirname"
+  tar -xzf "$file" -C "../sources/$dirname"
+done
+```
+
 ---
 
 ## 🔧 Git Commands
