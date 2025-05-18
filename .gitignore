@@ -41,4 +41,4 @@ rootfs/var/log/
 .env
 
 # Ignore all extracted source folders under any GPL drop
-gpl_sources/**/extracted/
+!gpl_sources/**/extracted/
