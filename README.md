@@ -161,6 +161,16 @@ kindle-embedded-sandbox/
 
 ---
 
+## 🌿 Branches Overview
+
+- **main** — Primary branch with core project source code, builds, and documentation.  
+- **codespace-backup** — Branch for backing up extracted GPL sources and Codespace environment files that are ignored in `main`.  
+  Used to preserve large extracted files and environment setup logs from your Codespace sessions.
+
+For detailed instructions on using the `codespace-backup` branch and managing your Codespace environment, see [Codespace Backup Guide](https://github.com/yoganathp/kindle-embedded-sandbox/blob/codespace-backup/kindle-embedded-sandbox/docs/codespace-backup-guide.md).
+
+---
+
 ## 📜 License
 
 This project is released under the [MIT License](./LICENSE.md).
