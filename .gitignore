@@ -1,0 +1,41 @@
+# Build artifacts
+/build/
+/out/
+/bin/
+/obj/
+
+# Toolchain output
+*.o
+*.elf
+*.bin
+*.img
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# USB serial config / UART logs
+*.trace
+*.dump
+
+# QEMU output
+qemu-*.log
+
+# Rootfs generated files
+rootfs/tmp/
+rootfs/var/log/
+
+# Other local configs or secrets
+.env
