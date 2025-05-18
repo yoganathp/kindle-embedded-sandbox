@@ -1,0 +1,2 @@
+alias.cs-save-stop !f() { cd "$(git rev-parse --show-toplevel)" && ./scripts/backup-and-stop.sh 1; }; f
+alias.cs-stop !f() { cd "$(git rev-parse --show-toplevel)" && ./scripts/backup-and-stop.sh 0; }; f
